@@ -18,8 +18,12 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true
   },
+  "include": [
+    "node_modules/cypress/types/*.ts",
+    "cypress/*/*.ts"
+  ],
   "exclude": [
-    "node_modules",
+    // "node_modules",
     "build",
     "scripts",
     "acceptance-tests",
